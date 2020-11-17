@@ -13,8 +13,8 @@ function App() {
       <Switch>
     <div className="App">
       <Header name={name}/>
-      <Route path="/:id" component={GameDetails}/>
-      <Route path="/" component={GameList}/>
+      <Route exact path="/:id" component={GameDetails}/>
+      <Route exact path="/" component={GameList}/>
     </div>
     </Switch>
     </BrowserRouter>
