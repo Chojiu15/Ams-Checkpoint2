@@ -1,0 +1,22 @@
+.gcard {
+    display: flex;
+    padding-top: 60px;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+} 
+
+.card {
+height: 400px;
+width: 120px;
+}
+.isOnline {
+    background-color: red;
+  }
+.isOffline {
+    background-color: grey;
+}
+
+
+
+

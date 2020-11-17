@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './Components/Header'
-
+import Game from './Components/Game'
+import GameList from './Components/GameList'
 
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
   return (
     <div className="App">
       <Header heading={heading}/>
+      <GameList />
+
 
     </div>
   );

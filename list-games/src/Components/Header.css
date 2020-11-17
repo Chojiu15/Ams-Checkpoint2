@@ -4,4 +4,9 @@
     justify-content: center;
     height: 60px;
     align-items: flex-start;
+    position: fixed;
+    width: 100%;
+}
+.butto {
+    margin-left: 40%;
 }
