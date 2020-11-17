@@ -1,0 +1,32 @@
+/* Override browser defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* This is the list container */
+ul {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px;
+    min-height: 10vh;
+    font-size: 0.9rem;
+    list-style: none;
+}
+
+li {
+    height: 50px;
+    border: none;
+    width: 50%;
+    padding: 20px;
+}
+
+img {
+    width: 200px
+}
+
+.name {
+    grid-column-start:1;
+    grid-column-end: 3;
+}
