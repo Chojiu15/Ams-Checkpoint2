@@ -1,0 +1,30 @@
+.game {
+    border: 2px solid black;
+    margin-left: 10px;
+    width: 30%;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    
+    justify-content: space-between;
+
+}
+
+.isFavorite {
+    width: 40px;
+    height: 40px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/35/Emoji_u2665.svg");
+    background-size: 100%;
+    align-self: flex-start;
+  }
+  
+  .notFavorite {
+    width: 40px;
+    height: 40px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4f/Ei-heart.svg");
+    background-size: 100%;
+    align-self: flex-start;
+  }
+  .bckgr {
+      width: 50%;
+  }
