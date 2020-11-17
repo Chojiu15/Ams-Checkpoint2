@@ -7,6 +7,7 @@ const GameList = () => {
     const [list, setList] = useState([])
     const [search, setSearch] = useState("")
 console.log(list)
+console.log(search)
     useEffect(() => {
     Axios.get('https://apis.wilders.dev/wild-games/games')
     .then(resp => setList(resp.data))
