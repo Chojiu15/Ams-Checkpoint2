@@ -1,0 +1,1 @@
+console.log([{ age: 22 },{ age: 12 }].map(p => p.age).filter(a => a > 20).reduce((a, b) => a + b))
