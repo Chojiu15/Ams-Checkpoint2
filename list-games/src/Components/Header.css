@@ -1,0 +1,7 @@
+.hdiv {
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    height: 60px;
+    align-items: flex-start;
+}
