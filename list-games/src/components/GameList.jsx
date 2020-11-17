@@ -25,9 +25,10 @@ const GameList = () => {
                 {games.map(e => {
                     return (
                         <div key={e.id}>
-                            <Link to={{pathname:`/games/${e.id}`}}>
+                            <Link to={{pathname:`/${e.id}`}} setGames={setGames} games={games}>
                                 {e.name} 
                             </Link>
+                           
                         </div>
                     )
                 })}

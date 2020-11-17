@@ -1,19 +1,17 @@
-const Card = ({name}) => {
+const Card = (props) => {
 
-    function getRandomColor() {
-        var letters = '0123456789ABCDEF';
-        var color = '#';
-        for (var i = 0; i < 6; i++) {
-          color += letters[Math.floor(Math.random() * 16)];
-        }
-        return color;
-      }
+  <button>sds</button>
 
 
-    
-    return(
-    <p style={{backgroundColor : getRandomColor(),color: getRandomColor()}}>{name}</p>
-    )
+
+
+  return (
+    <>
+      <h2>{props.game.name}</h2>
+      <h3>{props.game.id}</h3>
+      <img src={props.background_image} alt={props.game.name} />
+    </>
+  )
 }
 
 export default Card

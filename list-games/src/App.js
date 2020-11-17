@@ -10,9 +10,8 @@ function App() {
       <Header title={"Joeway's"} />
       <Router>
         <Switch>
-        
-          <Route path='/' component={GameList} />
-          <Route path='/games/:id' component={Game} />  
+          <Route exact path='/' component={GameList} />
+          <Route exact path='/:id' component={Game} />
         </Switch>
       </Router>
     </div>
