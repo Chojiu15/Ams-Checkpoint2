@@ -2,12 +2,11 @@
     border: 2px solid black;
     margin-left: 10px;
     width: 30%;
-    height: 100px;
+    height: 20%;
     text-align: center;
     display: flex;
-    
+    font-size: smaller;
     justify-content: space-between;
-
 }
 
 .isFavorite {

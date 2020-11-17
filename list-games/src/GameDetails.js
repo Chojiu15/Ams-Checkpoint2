@@ -17,6 +17,7 @@ export const GameDetails = (props) => {
         <div>
             <h1>{game.name}</h1>
             <img style={{width: "30%"}} className="gamePic" src={game.background_image} alt={game.id}/>
+            <p>{game.description}</p>
         </div>
     )
 }
